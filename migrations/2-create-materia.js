@@ -11,8 +11,8 @@ module.exports = {
       nombre: {
         type: Sequelize.STRING
       },
-      carrera: {
-        type: Sequelize.STRING
+      id_carrera: {
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,
